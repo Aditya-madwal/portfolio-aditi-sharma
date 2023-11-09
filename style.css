@@ -1,0 +1,150 @@
+*{
+    /* background-color: #739072; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #739072;
+    margin: 0px;
+    padding: 0px;
+}
+
+.front{
+    background-image: url("./images/aditi.jpg");
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro img{ 
+    width: 20vw;
+    /* height: 20vh; */
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 1000px;
+    margin-right: 100px;
+}
+
+.intro{
+    display: flex;
+    /* width: 70vw; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.intro-text{
+    width: 30vw;
+    padding: 20px;
+    /* border: 2px solid; */
+    border-left: 2px solid;
+    margin: 20px;
+    padding-left: 100px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+hr {
+    border-bottom: none;
+    border-top: 5px dotted;
+    color: black;
+    width: 100px;
+}
+
+/* skill card */
+
+.skillCard{
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 400px;
+}
+
+.skillCard img{
+    width: 10vw;
+    /* height: 20vh; */
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 1000px;
+    margin-right: 20px;
+}
+
+.card-text{
+    width: 30vw;
+}
+
+.skill-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
+}
+
+.skills h1{
+    margin-top: 100px;
+    text-align: center;
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
+}
+
+.images{
+    width: 10vw;
+    /* height: 20vh; */
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 1000px;
+    margin-right: 20px;
+}
+
+.social-media-card{
+    /* border: 2px solid; */
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.images_s{
+    width: 100px;
+}
+
+.contacts{
+    /* text-align: center; */
+}
+
+.social-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
